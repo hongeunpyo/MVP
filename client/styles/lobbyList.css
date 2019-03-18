@@ -1,0 +1,23 @@
+.lobby-list-container {
+  background: white;
+  height: 85vh;
+  max-width: 80vw;
+  margin: 0 auto;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.lobby-entry-container {
+  display: flex;
+  height: 10vh;
+  max-width: 100vw;
+  border: 1px solid black;
+  align-items: center
+}
+
+.currently-playing-image {
+  height: 80px;
+  width: 80px;
+  border-radius: 100px;
+}

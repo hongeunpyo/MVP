@@ -1,6 +1,5 @@
 import React from "react"
 import {Link} from 'react-router-dom';
-import LobbyList from "./lobbyList";
 import "../styles/header.css"
 
 const Header = (props) => {
@@ -8,7 +7,7 @@ const Header = (props) => {
     <div className="nav-bar-container">
       <div className="header">ON.tomo</div>
       <Link to="/">Home</Link>
-      <LobbyList />
+      <Link to="/lobby-list">Lobby</Link>
     </div>
   )
 }
