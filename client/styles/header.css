@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  background-color: #2d2d2d;
+}
+
+.nav-bar-container {
+  background-color: #2d2d2d;
+  display:flex;
+  justify-content: flex-end;
+  max-width: 80%;
+  align-items: center;
+  height: 10vh;
+  vertical-align: baseline;
+  margin: 0 auto;
+}
+
+.header {
+  font-size: 36px;
+  color: white;
+  margin-right: auto;
+  text-align: center
+}
+
+Link {
+  color: white;
+}
+
