@@ -16,7 +16,9 @@ class LobbyList extends React.Component {
 
   render() {
     return (
+      <React.Fragment>
       <div className="lobby-list-container">
+      <div className="create-lobby-modal">Modal Here</div>
         <Link to="/lobby">
           <div className="lobby-entry-container">
             <img className="currently-playing-image" src="https://superhypeblog.com/wp-content/uploads/2013/04/Pink-Floyd-Dark-Side-of-the-Moon-2017-billboard-1240-1024x1024.jpg"/>
@@ -25,6 +27,7 @@ class LobbyList extends React.Component {
           </div>
         </Link>
       </div>
+      </React.Fragment>
     );
   }
 }

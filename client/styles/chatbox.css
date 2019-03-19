@@ -1,0 +1,22 @@
+.chatbox-container {
+  max-width: 70vw;
+  height: 35vh;
+  margin: 0 auto;  
+}
+
+.message-header {
+  height: 2vh;
+  border: 1px solid black;
+  background: white;
+}
+
+.message-container {
+  display: flex;
+  height: 30vh;
+  background: white;
+}
+
+.chatbox-message-input {
+  width: -webkit-fill-available;
+  height: 2vh;
+}

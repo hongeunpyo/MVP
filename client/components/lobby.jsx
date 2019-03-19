@@ -1,5 +1,8 @@
 import React from "react";
 import Player from "./player";
+import Queue from "./queue";
+import Chatbox from "./chatbox"
+import "../styles/lobby.css"
 
 class Lobby extends React.Component {
   constructor(props) {
@@ -8,13 +11,13 @@ class Lobby extends React.Component {
   }
   render() {
     return (
-      <div className="lobby-container">
-        <div className="player-container">Player Here
-        <Player />
+      <>
+        <div className="lobby-container">
+          <Player />
+          <Queue />
         </div>
-        <div className="queue-container">Queue Here</div>
-        <div className="chatbox-container">Chatbox Here</div>
-      </div>
+        <Chatbox/>
+      </>
     );
   }
 }

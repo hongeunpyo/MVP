@@ -1,0 +1,30 @@
+.player-container {
+  height: 50vh;
+  width: 60vw;
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.player-song-info-container {
+  display: flex;
+  height: 40vh;
+  flex-direction: column;
+  align-items: center
+}
+
+.player-album-art {
+  height: 250px;
+  width: 250px;
+}
+
+.player-controller-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play, .stop, .next, .prev {
+  border: 1px solid black;
+  border-radius: 3px
+}
