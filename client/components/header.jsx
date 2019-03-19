@@ -7,7 +7,7 @@ const Header = (props) => {
     <div className="nav-bar-container">
       <div className="header">ON.tomo</div>
       <Link to="/">Home</Link>
-      <Link to="/lobby-list">Lobby</Link>
+      <Link to="/lobby-list">Lobby List</Link>
     </div>
   )
 }

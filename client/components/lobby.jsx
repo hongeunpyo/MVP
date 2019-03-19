@@ -8,7 +8,7 @@ class Lobby extends React.Component {
   }
   render() {
     return (
-      <div className="lobby-container">Lobby endpoint hit
+      <div className="lobby-container">
         <div className="player-container">Player Here
         <Player />
         </div>

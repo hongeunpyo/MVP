@@ -17,7 +17,7 @@ class LobbyList extends React.Component {
   render() {
     return (
       <div className="lobby-list-container">
-        <Link to="/lobby/">
+        <Link to="/lobby">
           <div className="lobby-entry-container">
             <img className="currently-playing-image" src="https://superhypeblog.com/wp-content/uploads/2013/04/Pink-Floyd-Dark-Side-of-the-Moon-2017-billboard-1240-1024x1024.jpg"/>
             <div className="player-info">currentPlaying</div>
