@@ -23,12 +23,49 @@
 
 .queue-album-art {
   width: 75px;
-  height: 75px;
-  border-radius: 100px;
+  height: 8vh;
+  /* border-radius: 100px; */
 }
 
 .up-vote, .down-vote {
   border: 1px solid black;
   border-radius: 3px;
   padding: 0 3px 0 3px;
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+.up-vote:hover, .down-vote:hover {
+  cursor: pointer;
+  border: 1px solid #f88379;
+  color: #f88379;
+}
+
+.queue-song-info-container {
+  display: flex;
+  flex-direction: column;
+  width: 8vw;
+}
+
+.queue-song-artist {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.queue-song-name {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.vote-container {
+  display: flex;
+  margin-left: auto;
+  flex-direction: column;
+  width: 3vw;
+  margin-right: 3px;
+}
+
+.vote-flavor {
+  font-size: 12px;
+  margin-left: 3px;
 }

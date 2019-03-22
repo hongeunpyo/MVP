@@ -16,19 +16,27 @@ class Queue extends React.Component {
         </div>
         <div className="song-info-container">
           <img className="queue-album-art" src="https://direct.rhapsody.com/imageserver/images/Alb.330899692/500x500.jpg"/>
-          <div className="queue-song-name">Case For You</div>
-          <div className="queue-song-artist">Early Eyes</div>
-          <div className="votes">0</div>
-          <div className="up-vote">^</div>
-          <div className="down-vote">v</div>
+          <div className="queue-song-info-container">
+            <div className="queue-song-artist">Early Eyes</div>
+            <div className="queue-song-name">Case For You</div>
+          </div>
+          <div className="vote-container">
+            <div className="votes">0<span className="vote-flavor">votes</span></div>
+            <div className="up-vote">^</div>
+            <div className="down-vote">v</div>
+          </div>
         </div>
         <div className="song-info-container">
           <img className="queue-album-art" src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/JohnMayer_RoomForSquares.jpg/220px-JohnMayer_RoomForSquares.jpg"/>
-          <div className="queue-song-name">Your Body is A Wonderland</div>
-          <div className="queue-song-artist">John Mayer</div>
-          <div className="votes">0</div>
-          <div className="up-vote">^</div>
-          <div className="down-vote">v</div>
+          <div className="queue-song-info-container">
+            <div className="queue-song-artist">John Mayer</div>
+            <div className="queue-song-name">Your Body is A Wonderland</div>
+          </div>
+          <div className="vote-container">
+            <div className="votes">0<span className="vote-flavor">votes</span></div>
+            <div className="up-vote">^</div>
+            <div className="down-vote">v</div>
+          </div>
         </div>
       </div>
     )

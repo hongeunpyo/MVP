@@ -4,6 +4,13 @@
   background: white;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+}
+
+.player-header {
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 20px;
 }
 
 .player-song-info-container {
@@ -13,9 +20,20 @@
   align-items: center
 }
 
+.player-artist-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.player-song-name {
+  font-size: 12px;
+  font-style: italic;
+}
+
 .player-album-art {
   height: 250px;
   width: 250px;
+  margin-bottom: 10 px;
 }
 
 .player-controller-container {
@@ -24,7 +42,14 @@
   align-items: center;
 }
 
-.play, .stop, .next, .prev {
+.play, .stop, .skip {
   border: 1px solid black;
-  border-radius: 3px
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.play:hover, .stop:hover, .skip:hover {
+  cursor: pointer;
+  border: 1px solid #f88379;
+  color: #f88379;
 }

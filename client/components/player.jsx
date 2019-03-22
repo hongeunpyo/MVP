@@ -24,7 +24,7 @@ class Player extends React.Component {
     return (
       <div className="player-container">
         <ReactHowler
-          src='https://s3.amazonaws.com/mvp-music/test.mp3'
+          src='https://s3.amazonaws.com/mvp-music/song1.mp3'
           playing={this.state.playing}
         />
         <div className="player-song-info-container">
@@ -34,10 +34,9 @@ class Player extends React.Component {
           <div className="player-song-name">Money</div>
         </div>
         <div className="player-controller-container">
-          <div className="prev">Prev</div>
           <div className="play" onClick={this.handlePlay}>Play</div>
           <div className="stop" onClick={this.handleStop}>Stop</div>
-          <div className="next">Next</div>
+          <div className="skip">Skip</div>
         </div>
       </div>
     )

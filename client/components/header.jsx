@@ -5,9 +5,11 @@ import "../styles/header.css"
 const Header = (props) => {
   return(
     <div className="nav-bar-container">
-      <div className="header">ON.tomo</div>
-      <Link to="/">Home</Link>
-      <Link to="/lobby-list">Lobby List</Link>
+      <div className="header">ON.<span className="sub-header">tomo</span></div>
+      <div className="nav-bar-item-container">
+        <Link className="nostyle" to="/"><span className="nav-bar-item">Home</span></Link>
+        <Link className="nostyle" to="/lobby-list"><span className="nav-bar-item">Lobby List</span></Link>
+      </div>
     </div>
   )
 }
